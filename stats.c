@@ -12,7 +12,20 @@
  * @file stats.c 
  * @brief Implementation of statistics related function in C 
  *
- * <Add Extended Description Here>
+ * This file contains the definitions of all statistical functions 
+ * declared in `stats.h`. The implemented functions are designed 
+ * to operate on a dataset of type unsigned char. They include:
+ * 
+ * - print_statistics()
+ * - print_array()
+ * - find_mean()
+ * - find_median()
+ * - find_minimum()
+ * - find_maximum()
+ * - sort_array()
+ * 
+ * These functions help analyze the data by calculating central 
+ * tendencies and organizing the dataset.
  *
  * @author Dhruv Shah
  * @date 24 July 2025
@@ -40,4 +53,30 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(unsigned char *arr, unsigned int size){
+
+}
+
+void print_array(unsigned char *arr, unsigned int size){
+
+}
+
+unsigned char find_median(unsigned char *arr, unsigned int size){
+
+}
+
+unsigned char find_mean(unsigned char *arr, unsigned int size){
+
+}
+
+unsigned char find_maximum(unsigned char *arr, unsigned int size){
+
+}
+
+unsigned char find_minimum(unsigned char *arr, unsigned int size){
+
+}
+
+void sort_array(unsigned char *arr, unsigned int size){
+
+}
