@@ -1,3 +1,4 @@
+Author: Dhruv Shah
 # Shah_Coursera
 
 This repository contains the full implementation of statistical analysis functions in C, created as part of the Coursera Embedded Systems course assignment.
