@@ -28,7 +28,7 @@
  #ifndef __STATS_H__
  #define __STATS_H__
  
- void print_statistics(unsigned char *arr, unsigned int size);
+ void print_statistics(unsigned char min, unsigned char max, unsigned char mean, unsigned char median);
  /**
   * @brief Prints the statistics of an array
   *
